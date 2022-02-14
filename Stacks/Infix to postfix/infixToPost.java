@@ -4,7 +4,7 @@ import java.util.*;
 public class infixToPost
 {   
    // this method determines the precedence of the operators used in this program
-    public static int getPrecedence(String value)
+    public static int setPrecedence(String value)
     {
         if (value.equals("*") || value.equals("/"))
         {
